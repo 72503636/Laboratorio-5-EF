@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title></title>
+  </head>
+  <body>
+    <header class="container">
+        <div class="row border border-success rounded-0 rounded-circle">
+            
+            <div class="col-sm-2">
+                <img class="card-img-overlay" src="../imagenes/logo_organic.PNG" alt="Logo de la Tienda" >
+            </div>
+            <div class="col-sm-8"><h1 class="text-center">Vendomatica</h1> <h6 class="text-center">Haz tu compra inteligente</h6></div>
+            <div class="col-sm-2" class="justify-content-between text-center"><br>
+                <a href="index.html" class="stretched-link justify-content-between">Cerrar Sesión</a>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main class="container">
+        <div class="row">
+            <aside id="navbarNav" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse border-right border-success font-italic">
+                <nav class="sidebar-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item text-center">
+                            <img src="../imagen/logo.png" 
+                            width="90px;" height="auto;" class="rounded-circle">
+                            <p>Cliente</p>
+                            <a href="index.html"><i class="fa fa-sign-out"></i> Cerrar sesión</a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column nav-pills">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-home"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="productos-page.html" class="nav-link active">
+                                <i class="fa fa-shopping-cart"></i>
+                                Productos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pedidos-page.html" class="nav-link">
+                                <i class="fa fa-truck"></i>
+                                Pedidos
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+
+            <section class="col-md-9 ml-ms-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-wrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h5>Productos</h5>
+                    <a href="nuevo-producto.html" class="btn btn-success float-right" ><i class="fa fa-plus"></i> Nuevo Producto</a>
+                </div>
+                <div class="col co-12">
+                    <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar Productos" aria-label="Buscar">
+                </div>
+                <!-- Inicio producto uno -->
+                <div class="media text-muted pt-3">
+                    <img src="../imagen/almendras.JPG" width="40px;" height="40px;" alt="ALT">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between w-100">
+                            <strong class="text-gray-dark">Almendras</strong>
+                            <div class="row">
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="editar-producto.html" class="float-right text-info">
+                                     <i class="fa fa-truck"></i></a>
+                                </div>
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-danger"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-success">Stock: 120</span>
+                    </div>
+                </div>
+                <!-- Fin producto uno -->
+                <!-- Inicio producto dos -->
+                <div class="media text-muted pt-3">
+                    <img src="../imagen/carneVegetal.JPG" width="40px;" height="40px;">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between w-100">
+                            <strong class="text-gray-dark">Carne Vegetal</strong>
+                            <div class="row">
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-info"><i class="fa fa-edit"></i></a>
+                                </div>
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-danger"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-danger">Stock: 0</span>
+                    </div>
+                </div>
+                <!-- Fin producto dos -->
+                <!-- Inicio producto tres -->
+                <div class="media text-muted pt-3">
+                    <img src="../imagen/castana.JPG" width="40px;" height="40px;">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between w-100">
+                            <strong class="text-gray-dark">Castaña</strong>
+                            <div class="row">
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-info"><i class="fa fa-edit"></i></a>
+                                </div>
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-danger"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-warning">Stock: 10</span>
+                    </div>
+                </div>
+                <!-- Fin producto dos -->
+
+                <!-- Inicio producto cuatro -->
+                <div class="media text-muted pt-3">
+                    <img src="../imagen/habas.JPG" width="40px;" height="40px;">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between w-100">
+                            <strong class="text-gray-dark">Habas</strong>
+                            <div class="row">
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-info"><i class="fa fa-edit"></i></a>
+                                </div>
+                                <div class="col col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#" class="float-right text-danger"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="text-warning">Stock: 10</span>
+                    </div>
+                </div>
+                <br>
+                <nav aria-label="Page navigation example text-success">
+                    <ul class="pagination justify-content-center text-success">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                <!-- Fin producto cuatro -->
+            </section>
+        </div>
+    </main>
+    
+
+
+    <br>
+     <footer class="container text-center text-success bg-light  alert alert-success" >
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 text-center font-weight-bold lead text-success">
+        El contenido de esta pagina web esta protegia por copyright y es propiedad de vendomatica
+                </div>
+            </div>
+     </footer> 
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
